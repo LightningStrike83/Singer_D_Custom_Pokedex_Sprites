@@ -34,7 +34,7 @@ h3 {
     width: 100px;
 }
 
-#pokedex_display, #pokemon_sprites {
+#pokedex_display, #pokemon_sprites, #alolan_sprites, #galarian_sprites, #hisuian_sprites, #paldean_sprites {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -60,4 +60,16 @@ h3 {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+}
+
+#regional {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.regional_text {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
